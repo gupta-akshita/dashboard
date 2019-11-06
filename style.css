@@ -3,13 +3,35 @@ body{
 	background-color: #FAFAFA;
   	font-family: Arial, Helvetica, sans-serif;
 }
+::-webkit-scrollbar {
+  width: 8px;
+  
+}
 
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: none; 
+  border-radius: 8px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(194, 194, 194); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(194, 194, 194, 0.5); 
+}
 header{
 	background-color: white;
-	height: 120px;
+	height: 138px;
 	width: 100%;
 	margin: auto;
 	border-bottom: 2px solid #FAFAFA;
+	box-shadow: 2px 2px 2px 2px #F0F0F0;
+	min-height: 138px;
 }
 
 nav{
@@ -90,7 +112,7 @@ nav{
 .nav-bottom .logo{
 	font-size: 15px;
 	text-align: center;
-	margin-top: 6px;
+	margin-top: 10px;
 }
 
 #admin-panel{
@@ -147,6 +169,8 @@ main{
 	border: 1px solid white;
 	padding: 8px;
 	box-shadow: 2px 2px 2px 2px #F0F0F0;
+	height: 324px;
+	min-height: 324px;
 }
 
 .box-2{
@@ -157,7 +181,7 @@ main{
 
 .box{
 	/*background-color: red;*/
-	margin: 15px;
+	margin: 7px;
 }
 
 .box ul{
@@ -176,7 +200,7 @@ main{
   display: block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 10px 9px;
   text-decoration: none;
 }
 
@@ -184,18 +208,23 @@ main{
 float: right;
 font-size: 14px;
 }
-
+.black-dropdown{
+  height: 8px;
+  width: 7px;
+  margin-left: 12px;
+}
 .box li a, .dropbtn {
   display: inline-block;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 11px 16px;
   text-decoration: none;
   
 }
 
 .box .dropbtn{
-border: 1px solid black;
+border: 0.1em solid #c2c2c2;
+border-radius: 5px;
 }
 
 .box li.dropdown {
@@ -206,7 +235,7 @@ border: 1px solid black;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
-  min-width: 160px;
+  min-width: 102px;
   z-index: 1;
 }
 
@@ -252,7 +281,8 @@ border: 1px solid black;
 	font-size: 15px;
 	margin-top: 85px;
 	list-style: none;
-	margin-left: 80px;
+	margin-left: 60px;
+	color: #c2c2c2;
 }
 
 .pi-list ul li::before {
@@ -285,7 +315,7 @@ border: 1px solid black;
 div.ex1 {
   background-color: white;
   width: 100%;
-  overflow: scroll;
+  overflow-y: scroll;
   margin: 0;
   height: 220px;
 }
@@ -293,7 +323,12 @@ div.ex1 {
 .xy{
 	width: 90%;
     margin: auto;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid #c2c2c2
+
+
+
+
+;
 }
 
 .xyz{
@@ -329,18 +364,19 @@ div.ex1 {
 	list-style-image: url('pdf.png');
 }
 #a{
-	font-size: 13px;
-	margin-top: -11px;
-    color: grey;
-    width: 90%;
+	font-size: 15px;
+	margin-top: -7px;
+	color: grey;
+	width: 90%;
 
 }
 .b{
 	margin: 0;
 	padding: 0;
-	font-size: 12px;
-	margin-top: -5px;
+	font-size: 13px;
+	margin-top: -8px;
 	color: grey;
+	margin-bottom: 9px;
 }
 .b ul{
 	list-style-type: none;
@@ -408,7 +444,7 @@ i {
 }
 
 i:hover{
-	border: solid yellow;
+	border: solid #d7d172;
 	border-width: 0 3px 3px 0;
   display: inline-block;
   padding: 10px;
