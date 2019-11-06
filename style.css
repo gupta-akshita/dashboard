@@ -170,7 +170,10 @@ main{
 	padding: 8px;
 	box-shadow: 2px 2px 2px 2px #F0F0F0;
 	height: 324px;
+<<<<<<< HEAD
 	min-height: 324px;
+=======
+>>>>>>> f29ebf0e5b29f0206a5b2b8ab84588a9fd1124fc
 }
 
 .box-2{
@@ -223,8 +226,13 @@ font-size: 14px;
 }
 
 .box .dropbtn{
+<<<<<<< HEAD
 border: 0.1em solid #c2c2c2;
 border-radius: 5px;
+=======
+border: 1px solid black;
+border-radius: 6px;
+>>>>>>> f29ebf0e5b29f0206a5b2b8ab84588a9fd1124fc
 }
 
 .box li.dropdown {
@@ -364,17 +372,29 @@ div.ex1 {
 	list-style-image: url('pdf.png');
 }
 #a{
+<<<<<<< HEAD
 	font-size: 15px;
 	margin-top: -7px;
 	color: grey;
 	width: 90%;
+=======
+	font-size: 14px;
+	margin-top: -9px;
+    color: grey;
+    width: 90%;
+>>>>>>> f29ebf0e5b29f0206a5b2b8ab84588a9fd1124fc
 
 }
 .b{
 	margin: 0;
 	padding: 0;
+<<<<<<< HEAD
 	font-size: 13px;
 	margin-top: -8px;
+=======
+	font-size: 12px;
+	margin-top: -10px;
+>>>>>>> f29ebf0e5b29f0206a5b2b8ab84588a9fd1124fc
 	color: grey;
 	margin-bottom: 9px;
 }
