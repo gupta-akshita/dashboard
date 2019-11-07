@@ -105,7 +105,7 @@ nav{
 }
 
 .nav-bottom ul{
-	margin-top: 6px;
+	margin-top: 12px;
 	word-spacing: 60px;
 }
 
@@ -120,7 +120,9 @@ nav{
 	word-spacing: 0;
 	text-align: center;
 	display: inline;
-	font-size: 15px;
+	font-size: 16px;
+	margin-top: -8px;
+	margin-left: 10px;
 
 }
 #unit-border{
@@ -134,10 +136,11 @@ nav{
 .admin-right-bottom{
 	float: right;
 	border-radius: 4px;
-	margin: auto;
-	overflow: hidden;
+/*	margin: auto;
+*/	overflow: hidden;
 	width: 15%;
 	height: 100%;
+	padding: 6px;
 }
 
 
@@ -226,13 +229,9 @@ font-size: 14px;
 }
 
 .box .dropbtn{
-<<<<<<< HEAD
 border: 0.1em solid #c2c2c2;
 border-radius: 5px;
-=======
-border: 1px solid black;
 border-radius: 6px;
->>>>>>> f29ebf0e5b29f0206a5b2b8ab84588a9fd1124fc
 }
 
 .box li.dropdown {
