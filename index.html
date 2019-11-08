@@ -3,6 +3,26 @@
 <head>
 	<title>Dashboard</title>
 	<link rel="stylesheet" href="style.css" type="text/css">
+	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'Hours per Day'],
+          ['20 with Production', 16],
+          ['20 with FG', 4],
+          ['20 with Production', 7]
+        ]);
+
+        var options = {
+          pieHole: 0.4,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('donutchart'));
+        chart.draw(data, options);
+      }
+  </script>
 </head>
 <body>
 	<!---HEADER--->
@@ -95,10 +115,12 @@
 					</div>
 
 					<div class="inside-image">
-						<img src="pi.jpg" width="100%">
+						<!-- <img src="pi.jpg" width="100%"> -->
+						<div id="donutchart" style="width: 500px; height: 250px;"></div>
+
 					</div>
 
-					<div class="a-half">
+					<!-- <div class="a-half">
 					        <div class="pi-list">
 					            <ul>
 					                <li id="color-1">40 Outside</li>
@@ -106,7 +128,7 @@
 					                <li>20 with production</li>
 					            </ul>
 					  	    </div>
-     				</div>
+     				</div> -->
      			</div>
 
      			<!---SECOND COLUMN--->
